@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 70px;
+}
+
+@media (max-width: 600px){
+    div{
+       font-size: 32px;
+    }
+}

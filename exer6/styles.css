@@ -1,0 +1,20 @@
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    background: #ccc;
+    padding: 30px;
+    text-align: center;
+}
+
+/* tablet */
+@media (max-width: 600px){
+    .grid-cards{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}

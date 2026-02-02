@@ -1,0 +1,12 @@
+.botao{
+    background: green;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+@media(max-width: 600px){
+    .botao{
+        padding: 30px;
+    }
+}

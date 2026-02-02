@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.topo {
+    background: green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.conteudo {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #eaeaea;
+    padding: 30px;
+    flex: 1;
+    text-align: center;
+}
+
+
+@media (max-width: 600px){
+    .conteudo {
+        flex-direction: column;
+    }
+    body {
+        background-color: #edd8d8;
+    }
+    .card {
+        font-size: 14px;
+        padding: 20px;
+    }
+}

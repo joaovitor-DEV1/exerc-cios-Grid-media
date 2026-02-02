@@ -1,0 +1,19 @@
+.flex-cards {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item {
+    background: #ccc;
+    padding: 30px;
+    text-align: center;
+}
+
+
+@media (max-width: 600px){
+    .flex-cards{
+        flex-direction: column;
+
+    }
+}

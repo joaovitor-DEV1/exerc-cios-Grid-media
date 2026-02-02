@@ -1,0 +1,12 @@
+.Fundo {
+    background: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+
+@media (max-width: 600px){
+    .Fundo{
+        background: green;
+    }
+}
